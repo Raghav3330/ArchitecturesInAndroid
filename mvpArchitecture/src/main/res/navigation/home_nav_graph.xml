@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.rk.mvparchitecture.fragments.LoginFragment"
+        android:label="LoginFragment" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.rk.mvparchitecture.fragments.DashboardFragment"
+        android:label="DashboardFragment"/>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.rk.mvparchitecture.fragments.SignupFragment"
+        android:label="SignupFragment"/>
+
+</navigation>
